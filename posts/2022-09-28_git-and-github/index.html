@@ -103,6 +103,11 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../../posts.html"> 
 <span class="menu-text">Posts</span></a>
   </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../../index.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
@@ -144,7 +149,7 @@ ul.task-list li input[type="checkbox"] {
 <p>We discussed the use of Git and GitHub during the first edition of the programming cafe.</p>
 <p>Check out the slide below and do some <a href="https://github.com/UtrechtUniversity/programming-cafe/exercises/git-and-github/git-and-github.md">exercises</a> to get started.</p>
 <p>The UU GitHub page can be found <a href="https://github.com/UtrechtUniversity">here</a>.</p>
-<iframe width="1050" height="700" src="../../static/2022-09-28_git-and-github/2022-09-28_git-and-github-speaker.html"></iframe>
+<iframe width="1050" height="700" src="../../presentations/2022-09-28_git-and-github/slides/2022-09-28_git-and-github.html"></iframe>
 
 
 
@@ -230,7 +235,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/UtrechtUniversity\.github\.io\/programming-cafe\/");
+      var filterRegex = new RegExp("https:\/\/utrechtuniversity\.github\.io\/programming-cafe\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
