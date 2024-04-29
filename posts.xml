@@ -10,120 +10,38 @@
 <atom:link href="https://utrechtuniversity.github.io/programming-cafe/posts.xml" rel="self" type="application/rss+xml"/>
 <description>Website for the Programming Cafe @UtrechtUniversity.</description>
 <generator>quarto-1.4.553</generator>
-<lastBuildDate>Mon, 29 Apr 2024 13:00:58 GMT</lastBuildDate>
+<lastBuildDate>Sat, 05 Jul 2025 00:00:00 GMT</lastBuildDate>
 <item>
-  <title>Introduction to Julia</title>
-  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2024-02-08_julia/</link>
+  <title>Project Log</title>
+  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2023-05-31_projectlog/</link>
   <description><![CDATA[ 
 
 
 
 
-<iframe width="1050" height="700" src=".../../presentations/2024-02-08_julia/slides/2024-02-08_julia.html"></iframe>
+<p>coming soon</p>
 
 
 
  ]]></description>
-  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2024-02-08_julia/</guid>
-  <pubDate>Mon, 29 Apr 2024 13:00:58 GMT</pubDate>
+  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-05-31_projectlog/</guid>
+  <pubDate>Sat, 05 Jul 2025 00:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>Scheduling Scripts</title>
-  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2023-11-02_scheduling-scripts/</link>
+  <title>YODA &amp; iRODS Workflows</title>
+  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2023-03-29_yoda-irods-workflows/</link>
   <description><![CDATA[ 
 
 
 
 
-<p>This week’s Programming Cafe is about <em>Scheduling Scripts</em>! We will learn how to automate some boring things using the <em>schedulers</em> available on our operating systems.</p>
-<iframe width="900" height="600" src="../../presentations/2023-11-02_scheduling-scripts/slides/2023-11-02_scheduling-scripts.html"></iframe>
-<section id="exercise" class="level2">
-<h2 class="anchored" data-anchor-id="exercise">Exercise</h2>
-<p>After the presentation, we invite you to try out the scheduler on your operating system yourself! We have prepared some R &amp; Python scripts that you can utilize for this. You can download the materials here: <a href="https://github.com/UtrechtUniversity/programming-cafe/raw/main/exercises/scheduling-scripts/scheduling-scripts.zip">exercises.zip</a></p>
-<section id="windows" class="level3">
-<h3 class="anchored" data-anchor-id="windows">Windows</h3>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" aria-controls="tabset-1-1" aria-selected="true">R</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" aria-controls="tabset-1-2" aria-selected="false">Python</a></li></ul>
-<div class="tab-content">
-<div id="tabset-1-1" class="tab-pane active" aria-labelledby="tabset-1-1-tab">
-<ol type="1">
-<li><p>Go to <code>windows/r</code> and double-click on <code>scheduling-scripts.Rproj</code> to open RStudio.</p></li>
-<li><p>Open the <code>countdown.R</code> script from your <em>Files</em> pane and run the script once to make sure it works.</p></li>
-<li><p>If the script works fine, you can try scheduling it!</p></li>
-<li><p>Search for <em>Windows Task Scheduler</em> in your computer’s search bar.</p></li>
-<li><p>….</p></li>
-</ol>
-</div>
-<div id="tabset-1-2" class="tab-pane" aria-labelledby="tabset-1-2-tab">
-<ol type="1">
-<li><p>Go to <code>windows/python</code> and double-click on <code>countdown.py</code> to open it.</p></li>
-<li><p>Run the script to make sure it works.</p></li>
-<li><p>If the script works fine, you can try scheduling it!</p></li>
-<li><p>Search for <em>Windows Task Scheduler</em> in your computer’s search bar.</p></li>
-<li><p>….</p></li>
-</ol>
-</div>
-</div>
-</div>
-</section>
-<section id="macos" class="level3">
-<h3 class="anchored" data-anchor-id="macos">MacOS</h3>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" aria-controls="tabset-2-1" aria-selected="true">R</a></li><li class="nav-item"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" aria-controls="tabset-2-2" aria-selected="false">Python</a></li></ul>
-<div class="tab-content">
-<div id="tabset-2-1" class="tab-pane active" aria-labelledby="tabset-2-1-tab">
-<ol type="1">
-<li><p>Go to <code>macos/r</code> and double-click on <code>scheduling-scripts.Rproj</code> to open RStudio.</p></li>
-<li><p>Open the <code>countdown.R</code> script from your <em>Files</em> pane and run the script once to make sure it works.</p></li>
-<li><p>If the script works fine, you can try scheduling it!</p></li>
-<li><p>…</p></li>
-</ol>
-</div>
-<div id="tabset-2-2" class="tab-pane" aria-labelledby="tabset-2-2-tab">
-<ol type="1">
-<li><p>Go to <code>macos/python</code> and double-click on <code>countdown.py</code> to open it.</p></li>
-<li><p>Run the script to make sure it works.</p></li>
-<li><p>If the script works fine, you can try scheduling it!</p></li>
-<li><p>…</p></li>
-</ol>
-</div>
-</div>
-</div>
-</section>
-<section id="linux" class="level3">
-<h3 class="anchored" data-anchor-id="linux">Linux</h3>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" aria-controls="tabset-3-1" aria-selected="true">R</a></li><li class="nav-item"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" aria-controls="tabset-3-2" aria-selected="false">Python</a></li></ul>
-<div class="tab-content">
-<div id="tabset-3-1" class="tab-pane active" aria-labelledby="tabset-3-1-tab">
-<ol type="1">
-<li><p>Go to <code>linux/r</code> and double-click on <code>scheduling-scripts.Rproj</code> to open RStudio.</p></li>
-<li><p>Open the <code>countdown.R</code> script from your <em>Files</em> pane and run the script once to make sure it works.</p></li>
-<li><p>If the script works fine, you can try scheduling it!</p></li>
-<li><p>…</p></li>
-</ol>
-</div>
-<div id="tabset-3-2" class="tab-pane" aria-labelledby="tabset-3-2-tab">
-<ol type="1">
-<li><p>Go to <code>linux/python</code> and double-click on <code>countdown.py</code> to open it.</p></li>
-<li><p>Run the script to make sure it works.</p></li>
-<li><p>If the script works fine, you can try scheduling it!</p></li>
-<li><p>…</p></li>
-</ol>
-</div>
-</div>
-</div>
-</section>
-</section>
-<section id="references" class="level2">
-<h2 class="anchored" data-anchor-id="references">References</h2>
+<embed src="../../presentations/2023-03-29_yoda-irods-workflows/slides/2023-03-29_yoda-irods-workflows.pdf" type="application/pdf" width="100%" height="600px">
 
 
-</section>
 
  ]]></description>
-  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-11-02_scheduling-scripts/</guid>
-  <pubDate>Mon, 29 Apr 2024 13:00:58 GMT</pubDate>
+  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-03-29_yoda-irods-workflows/</guid>
+  <pubDate>Sat, 03 May 2025 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>GitHub Actions</title>
@@ -139,7 +57,205 @@
 
  ]]></description>
   <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-06-28_github-actions/</guid>
-  <pubDate>Mon, 29 Apr 2024 13:00:58 GMT</pubDate>
+  <pubDate>Sun, 06 Apr 2025 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Quickstart to Quarto</title>
+  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2023-04-26_quickstart-to-quarto/</link>
+  <description><![CDATA[ 
+
+
+
+
+<iframe width="1050" height="700" src="../../presentations/2023-04-26_quickstart-to-quarto/slides/2023-04-26_quickstart-to-quarto.html"></iframe>
+
+
+
+ ]]></description>
+  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-04-26_quickstart-to-quarto/</guid>
+  <pubDate>Tue, 04 Feb 2025 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Polars</title>
+  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2023-01-25_polars/</link>
+  <description><![CDATA[ 
+
+
+
+
+<embed src="../../presentations/2023-01-25_polars/slides/2023-01-25_polars.pdf" type="application/pdf" width="100%" height="600px">
+
+
+
+ ]]></description>
+  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-01-25_polars/</guid>
+  <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>GitHub Copilot</title>
+  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2023-01-25_github-copilot/</link>
+  <description><![CDATA[ 
+
+
+
+
+<iframe width="1050" height="700" src="../../presentations/2023-01-25_github-copilot/slides/2023-01-25_github-copilot.html"></iframe>
+
+
+
+ ]]></description>
+  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-01-25_github-copilot/</guid>
+  <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Advanced Git</title>
+  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2024-01-11_advanced-git/</link>
+  <description><![CDATA[ 
+
+
+
+
+<iframe width="1050" height="700" src="../../presentations/2024-01-11_advanced-git/slides/2024-01-11_advanced-git.html"></iframe>
+
+
+
+ ]]></description>
+  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2024-01-11_advanced-git/</guid>
+  <pubDate>Fri, 01 Nov 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Project Management</title>
+  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2023-02-22_project-management/</link>
+  <description><![CDATA[ 
+
+
+
+
+<iframe width="1050" height="700" src="../../presentations/2023-02-22_project-management/slides/2023-02-22_project-management.html"></iframe>
+
+
+
+ ]]></description>
+  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-02-22_project-management/</guid>
+  <pubDate>Wed, 02 Oct 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Introduction to Julia</title>
+  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2024-02-08_julia/</link>
+  <description><![CDATA[ 
+
+
+
+
+<iframe width="1050" height="700" src="../../presentations/2024-02-08_julia/slides/2024-02-08_julia.html"></iframe>
+
+
+
+ ]]></description>
+  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2024-02-08_julia/</guid>
+  <pubDate>Fri, 02 Aug 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Packaging in Python &amp; R</title>
+  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2024-03-07_packaging/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>coming soon</p>
+
+
+
+ ]]></description>
+  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2024-03-07_packaging/</guid>
+  <pubDate>Wed, 03 Jul 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Software Licenses</title>
+  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2022-11-30_software-licenses/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>coming soon</p>
+
+
+
+ ]]></description>
+  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2022-11-30_software-licenses/</guid>
+  <pubDate>Tue, 11 Jun 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Git &amp; GitHub</title>
+  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2022-09-28_git-and-github/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>We greatly encourage using Git and GitHub in research projects. The UU has published a video about the UU GitHub page:</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/qXfbnz2id8A" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>We discussed the use of Git and GitHub during the first edition of the programming cafe.</p>
+<p>Check out the slide below and do some <a href="https://github.com/UtrechtUniversity/programming-cafe/exercises/git-and-github/git-and-github.md">exercises</a> to get started.</p>
+<p>The UU GitHub page can be found <a href="https://github.com/UtrechtUniversity">here</a>.</p>
+<iframe width="1050" height="700" src="../../presentations/2022-09-28_git-and-github/slides/2022-09-28_git-and-github.html"></iframe>
+
+
+
+ ]]></description>
+  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2022-09-28_git-and-github/</guid>
+  <pubDate>Tue, 09 Apr 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Parallel Programming</title>
+  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2024-04-04_parallel-programming/</link>
+  <description><![CDATA[ 
+
+
+
+
+<iframe width="1050" height="700" src="../../presentations/2024-04-04_parallel-programming/slides/2024-04-04_parallel-programming.html"></iframe>
+
+
+
+ ]]></description>
+  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2024-04-04_parallel-programming/</guid>
+  <pubDate>Thu, 04 Apr 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Code Readability</title>
+  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2022-10-26_code-readability/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Hello this a post about code readability</p>
+<iframe width="1050" height="700" src="../../presentations/2022-10-26_code-readability/slides/2022-10-26_code-readability.html"></iframe>
+
+
+
+ ]]></description>
+  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2022-10-26_code-readability/</guid>
+  <pubDate>Sat, 10 Feb 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Literate Programming</title>
+  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2023-09-07_literate-programming/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>coming soon</p>
+
+
+
+ ]]></description>
+  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-09-07_literate-programming/</guid>
+  <pubDate>Sun, 09 Jul 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Data Visualization</title>
@@ -533,221 +649,105 @@ font-style: inherit;">'https://raw.githubusercontent.com/rfordatascience/tidytue
 
  ]]></description>
   <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-10-05_data-visualization/</guid>
-  <pubDate>Mon, 29 Apr 2024 13:00:58 GMT</pubDate>
+  <pubDate>Wed, 10 May 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>Software Licenses</title>
-  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2022-11-30_software-licenses/</link>
+  <title>Scheduling Scripts</title>
+  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2023-11-02_scheduling-scripts/</link>
   <description><![CDATA[ 
 
 
 
 
-<p>coming soon</p>
+<p>This week’s Programming Cafe is about <em>Scheduling Scripts</em>! We will learn how to automate some boring things using the <em>schedulers</em> available on our operating systems.</p>
+<iframe width="900" height="600" src="../../presentations/2023-11-02_scheduling-scripts/slides/2023-11-02_scheduling-scripts.html"></iframe>
+<section id="exercise" class="level2">
+<h2 class="anchored" data-anchor-id="exercise">Exercise</h2>
+<p>After the presentation, we invite you to try out the scheduler on your operating system yourself! We have prepared some R &amp; Python scripts that you can utilize for this. You can download the materials here: <a href="https://github.com/UtrechtUniversity/programming-cafe/raw/main/exercises/scheduling-scripts/scheduling-scripts.zip">exercises.zip</a></p>
+<section id="windows" class="level3">
+<h3 class="anchored" data-anchor-id="windows">Windows</h3>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" aria-controls="tabset-1-1" aria-selected="true">R</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" aria-controls="tabset-1-2" aria-selected="false">Python</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" aria-labelledby="tabset-1-1-tab">
+<ol type="1">
+<li><p>Go to <code>windows/r</code> and double-click on <code>scheduling-scripts.Rproj</code> to open RStudio.</p></li>
+<li><p>Open the <code>countdown.R</code> script from your <em>Files</em> pane and run the script once to make sure it works.</p></li>
+<li><p>If the script works fine, you can try scheduling it!</p></li>
+<li><p>Search for <em>Windows Task Scheduler</em> in your computer’s search bar.</p></li>
+<li><p>….</p></li>
+</ol>
+</div>
+<div id="tabset-1-2" class="tab-pane" aria-labelledby="tabset-1-2-tab">
+<ol type="1">
+<li><p>Go to <code>windows/python</code> and double-click on <code>countdown.py</code> to open it.</p></li>
+<li><p>Run the script to make sure it works.</p></li>
+<li><p>If the script works fine, you can try scheduling it!</p></li>
+<li><p>Search for <em>Windows Task Scheduler</em> in your computer’s search bar.</p></li>
+<li><p>….</p></li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+<section id="macos" class="level3">
+<h3 class="anchored" data-anchor-id="macos">MacOS</h3>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" aria-controls="tabset-2-1" aria-selected="true">R</a></li><li class="nav-item"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" aria-controls="tabset-2-2" aria-selected="false">Python</a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1" class="tab-pane active" aria-labelledby="tabset-2-1-tab">
+<ol type="1">
+<li><p>Go to <code>macos/r</code> and double-click on <code>scheduling-scripts.Rproj</code> to open RStudio.</p></li>
+<li><p>Open the <code>countdown.R</code> script from your <em>Files</em> pane and run the script once to make sure it works.</p></li>
+<li><p>If the script works fine, you can try scheduling it!</p></li>
+<li><p>…</p></li>
+</ol>
+</div>
+<div id="tabset-2-2" class="tab-pane" aria-labelledby="tabset-2-2-tab">
+<ol type="1">
+<li><p>Go to <code>macos/python</code> and double-click on <code>countdown.py</code> to open it.</p></li>
+<li><p>Run the script to make sure it works.</p></li>
+<li><p>If the script works fine, you can try scheduling it!</p></li>
+<li><p>…</p></li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+<section id="linux" class="level3">
+<h3 class="anchored" data-anchor-id="linux">Linux</h3>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" aria-controls="tabset-3-1" aria-selected="true">R</a></li><li class="nav-item"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" aria-controls="tabset-3-2" aria-selected="false">Python</a></li></ul>
+<div class="tab-content">
+<div id="tabset-3-1" class="tab-pane active" aria-labelledby="tabset-3-1-tab">
+<ol type="1">
+<li><p>Go to <code>linux/r</code> and double-click on <code>scheduling-scripts.Rproj</code> to open RStudio.</p></li>
+<li><p>Open the <code>countdown.R</code> script from your <em>Files</em> pane and run the script once to make sure it works.</p></li>
+<li><p>If the script works fine, you can try scheduling it!</p></li>
+<li><p>…</p></li>
+</ol>
+</div>
+<div id="tabset-3-2" class="tab-pane" aria-labelledby="tabset-3-2-tab">
+<ol type="1">
+<li><p>Go to <code>linux/python</code> and double-click on <code>countdown.py</code> to open it.</p></li>
+<li><p>Run the script to make sure it works.</p></li>
+<li><p>If the script works fine, you can try scheduling it!</p></li>
+<li><p>…</p></li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
 
 
-
- ]]></description>
-  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2022-11-30_software-licenses/</guid>
-  <pubDate>Mon, 29 Apr 2024 13:00:58 GMT</pubDate>
-</item>
-<item>
-  <title>Advanced Git</title>
-  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2024-01-11_advanced-git/</link>
-  <description><![CDATA[ 
-
-
-
-
-<iframe width="1050" height="700" src="../../presentations/2024-01-11_advanced-git/slides/2024-01-11_advanced-git.html"></iframe>
-
-
-
- ]]></description>
-  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2024-01-11_advanced-git/</guid>
-  <pubDate>Mon, 29 Apr 2024 13:00:58 GMT</pubDate>
-</item>
-<item>
-  <title>Project Log</title>
-  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2023-05-31_projectlog/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>coming soon</p>
-
-
-
- ]]></description>
-  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-05-31_projectlog/</guid>
-  <pubDate>Mon, 29 Apr 2024 13:00:58 GMT</pubDate>
-</item>
-<item>
-  <title>Literate Programming</title>
-  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2023-09-07_literate-programming/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>coming soon</p>
-
-
-
- ]]></description>
-  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-09-07_literate-programming/</guid>
-  <pubDate>Mon, 29 Apr 2024 13:00:58 GMT</pubDate>
-</item>
-<item>
-  <title>Code Readability</title>
-  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2022-10-26_code-readability/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Hello this a post about code readability</p>
-<iframe width="1050" height="700" src="../../presentations/2022-10-26_code-readability/slides/2022-10-26_code-readability.html"></iframe>
-
-
-
- ]]></description>
-  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2022-10-26_code-readability/</guid>
-  <pubDate>Mon, 29 Apr 2024 13:00:58 GMT</pubDate>
-</item>
-<item>
-  <title>Packaging in Python &amp; R</title>
-  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2024-03-07_packaging/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>coming soon</p>
-
-
-
- ]]></description>
-  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2024-03-07_packaging/</guid>
-  <pubDate>Mon, 29 Apr 2024 13:00:58 GMT</pubDate>
-</item>
-<item>
-  <title>YODA &amp; iRODS Workflows</title>
-  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2023-03-29_yoda-irods-workflows/</link>
-  <description><![CDATA[ 
-
-
-
-
-<embed src="../../presentations/2023-03-29_yoda-irods-workflows/slides/2023-03-29_yoda-irods-workflows.pdf" type="application/pdf" width="100%" height="600px">
-
-
+</section>
 
  ]]></description>
-  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-03-29_yoda-irods-workflows/</guid>
-  <pubDate>Mon, 29 Apr 2024 13:00:58 GMT</pubDate>
-</item>
-<item>
-  <title>Polars</title>
-  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2023-01-25_polars/</link>
-  <description><![CDATA[ 
-
-
-
-
-<embed src="../../presentations/2023-01-25_polars/slides/2023-01-25_polars.pdf" type="application/pdf" width="100%" height="600px">
-
-
-
- ]]></description>
-  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-01-25_polars/</guid>
-  <pubDate>Mon, 29 Apr 2024 13:00:58 GMT</pubDate>
-</item>
-<item>
-  <title>Parallel Programming</title>
-  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2024-04-04_parallel-programming/</link>
-  <description><![CDATA[ 
-
-
-
-
-<iframe width="1050" height="700" src="../../presentations/2024-04-04_parallel-programming/slides/2024-04-04_parallel-programming.html"></iframe>
-
-
-
- ]]></description>
-  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2024-04-04_parallel-programming/</guid>
-  <pubDate>Mon, 29 Apr 2024 13:00:58 GMT</pubDate>
-</item>
-<item>
-  <title>Quickstart to Quarto</title>
-  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2023-04-26_quickstart-to-quarto/</link>
-  <description><![CDATA[ 
-
-
-
-
-<iframe width="1050" height="700" src="../../presentations/2023-04-26_quickstart-to-quarto/slides/2023-04-26_quickstart-to-quarto.html"></iframe>
-
-
-
- ]]></description>
-  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-04-26_quickstart-to-quarto/</guid>
-  <pubDate>Mon, 29 Apr 2024 13:00:58 GMT</pubDate>
-</item>
-<item>
-  <title>Git &amp; GitHub</title>
-  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2022-09-28_git-and-github/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>We greatly encourage using Git and GitHub in research projects. The UU has published a video about the UU GitHub page:</p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/qXfbnz2id8A" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<p>We discussed the use of Git and GitHub during the first edition of the programming cafe.</p>
-<p>Check out the slide below and do some <a href="https://github.com/UtrechtUniversity/programming-cafe/exercises/git-and-github/git-and-github.md">exercises</a> to get started.</p>
-<p>The UU GitHub page can be found <a href="https://github.com/UtrechtUniversity">here</a>.</p>
-<iframe width="1050" height="700" src="../../presentations/2022-09-28_git-and-github/slides/2022-09-28_git-and-github.html"></iframe>
-
-
-
- ]]></description>
-  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2022-09-28_git-and-github/</guid>
-  <pubDate>Mon, 29 Apr 2024 13:00:58 GMT</pubDate>
-</item>
-<item>
-  <title>GitHub Copilot</title>
-  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2023-01-25_github-copilot/</link>
-  <description><![CDATA[ 
-
-
-
-
-<iframe width="1050" height="700" src="../../presentations/2023-01-25_github-copilot/slides/2023-01-25_github-copilot.html"></iframe>
-
-
-
- ]]></description>
-  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-01-25_github-copilot/</guid>
-  <pubDate>Mon, 29 Apr 2024 13:00:58 GMT</pubDate>
-</item>
-<item>
-  <title>Project Management</title>
-  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2023-02-22_project-management/</link>
-  <description><![CDATA[ 
-
-
-
-
-<iframe width="1050" height="700" src="../../presentations/2023-02-22_project-management/slides/2023-02-22_project-management.html"></iframe>
-
-
-
- ]]></description>
-  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-02-22_project-management/</guid>
-  <pubDate>Mon, 29 Apr 2024 13:00:58 GMT</pubDate>
+  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-11-02_scheduling-scripts/</guid>
+  <pubDate>Sat, 11 Feb 2023 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
