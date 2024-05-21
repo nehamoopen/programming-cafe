@@ -2,10 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.553">
+<meta name="generator" content="quarto-1.4.554">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Dawa Ometto">
 <meta name="dcterms.date" content="2024-01-11">
 
 <title>Programming Cafe - Advanced Git</title>
@@ -101,6 +102,10 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Agenda</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="../../people.html"> 
+<span class="menu-text">People</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../../posts.html"> 
 <span class="menu-text">Posts</span></a>
   </li>  
@@ -121,7 +126,19 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#slides" id="toc-slides" class="nav-link active" data-scroll-target="#slides">Slides</a></li>
+  <li><a href="#exercises" id="toc-exercises" class="nav-link" data-scroll-target="#exercises">Exercises</a>
+  <ul class="collapse">
+  <li><a href="#new-to-git" id="toc-new-to-git" class="nav-link" data-scroll-target="#new-to-git">New to git?</a></li>
+  <li><a href="#beginners" id="toc-beginners" class="nav-link" data-scroll-target="#beginners">Beginners</a></li>
+  <li><a href="#intermediateadvanced" id="toc-intermediateadvanced" class="nav-link" data-scroll-target="#intermediateadvanced">Intermediate/Advanced</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/UtrechtUniversity/programming-cafe/edit/main/site/posts/2024-01-11_advanced-git/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/UtrechtUniversity/programming-cafe/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/UtrechtUniversity/programming-cafe/blob/main/site/posts/2024-01-11_advanced-git/index.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -135,6 +152,12 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Dawa Ometto </p>
+          </div>
+  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
@@ -151,9 +174,122 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Date:</strong> Thursday, 11th January 2024</li>
+<li><strong>Time:</strong> 15:00-17:00</li>
+<li><strong>Location:</strong> Bucheliuszaal 6.18, University Library (Utrecht Science Park)</li>
+<li><strong>Presentation:</strong> <a href="https://utrechtuniversity.github.io/programming-cafe/posts/2024-01-11_advanced-git/">Advanced Git</a></li>
+<li><strong>Presenter:</strong> Dawa Ometto</li>
+</ul>
+</div>
+</div>
+<p>New Year, New Git Skills!</p>
+<p>So you’ve started using git for version control but are still puzzled by things as rebasing, merge conflict resolution, and pull request workflows? Then this Programming Café is for you! We’ll help you practice with intermediate-to-advanced uses of git, and also showcase some less known but handy ways in which you can use git during your development process.</p>
+<p>Basic knowledge of git (e.g.&nbsp;cloning a repository and staging/committing your changes) is assumed for the audience of the presentation.</p>
+<ul>
+<li><p>For beginners, we have a set of suggested exercises (and helpers) to get started with Git and GitHub.</p></li>
+<li><p>For advanced users, we may also delve into some of git’s “plumbing” to help you understand just what is going on when you type “git commit”.</p></li>
+</ul>
+<section id="slides" class="level2">
+<h2 class="anchored" data-anchor-id="slides">Slides</h2>
 <iframe width="1050" height="700" src="../../presentations/2024-01-11_advanced-git/slides/2024-01-11_advanced-git.html"></iframe>
+</section>
+<section id="exercises" class="level2">
+<h2 class="anchored" data-anchor-id="exercises">Exercises</h2>
+<p>The <a href="../../presentations/2024-01-11_advanced-git/exercises/exercises.html">exercises</a> below are available as a separate file, if more convenient.</p>
+<section id="new-to-git" class="level3">
+<h3 class="anchored" data-anchor-id="new-to-git">New to git?</h3>
+<p>If you’re completely new to git, or need to refresh your memory, just start with <a href="https://github.com/UtrechtUniversity/programming-cafe/blob/main/exercises/git-and-github/git-and-github.md">the basics</a>!</p>
+</section>
+<section id="beginners" class="level3">
+<h3 class="anchored" data-anchor-id="beginners">Beginners</h3>
+<p>If you’re a beginner, we recommend that you do the following exercises/tutorials from the CodeRefinery course <a href="https://coderefinery.github.io/git-intro/">Introduction to version control with Git</a>:</p>
+<ol type="1">
+<li>Clone <a href="https://github.com/dometto/git-tutorial-testrepo">this repository</a> to do the exercises in.</li>
+<li><a href="https://coderefinery.github.io/git-intro/branches/">Branching</a></li>
+<li><a href="https://coderefinery.github.io/git-intro/conflicts/">Conflict resolution</a></li>
+<li><a href="https://coderefinery.github.io/git-intro/remotes/">Pull Requests</a></li>
+<li><a href="https://coderefinery.github.io/git-intro/staging-area/#staging-area-commands">The Staging Area</a></li>
+</ol>
+<p>If you have time left, proceed with the exercises from the Intermediate/Advanced section below, focusing on the following:</p>
+<ol type="1">
+<li><a href="#Exercise2-Staging-and-Stashing">Exercise2 Staging and Stashing</a></li>
+<li><a href="#Exercise7-RebaseAndAmend">Exercise7 RebaseAndAmend</a></li>
+<li><a href="#Exercise4-Merging-and-ReReRe">Exercise4 Merging and ReReRe</a></li>
+</ol>
+</section>
+<section id="intermediateadvanced" class="level3">
+<h3 class="anchored" data-anchor-id="intermediateadvanced">Intermediate/Advanced</h3>
+<p>If you are a more advanced <code>git</code> user and are already familiar with the concepts of branching and merging, we recommend that you pick exercises from the <a href="https://github.com/nnja/advanced-git/tree/master/exercises">Advanced Git In Depth</a> course by Nina Zakharenko that cover topics you don’t know yet.</p>
+<p><strong>Use the following repository to complete the exercises: https://github.com/nnja/advanced-git-exercises</strong></p>
+<p>We recommend first picking the exercises listed below. For some of these topics, we’ve also added additional challenges!</p>
+<section id="exercise1-simplecommit" class="level4">
+<h4 class="anchored" data-anchor-id="exercise1-simplecommit">Exercise1 SimpleCommit</h4>
+<p><a href="https://github.com/nnja/advanced-git/blob/master/exercises/Exercise1-SimpleCommit.md">Learn about git’s internals by inspecting a commit under the hood</a>.</p>
+<section id="additional-exercises" class="level5">
+<h5 class="anchored" data-anchor-id="additional-exercises">Additional exercises</h5>
+<ol type="1">
+<li>Create a subdirectory <code>subdir</code> and create a file <code>hello2.txt</code> in it, with content such as <code>Hello to you too!</code>.</li>
+<li>Commit <code>subdir/hello2.txt</code></li>
+</ol>
+<p>Now, using at most the following three commands, can you output the contents of the file you just committed, <code>hello2.txt</code>?</p>
+<ul>
+<li><code>git log</code></li>
+<li><code>git ls-tree</code></li>
+<li><code>git cat-file</code></li>
+</ul>
+</section>
+</section>
+<section id="exercise2-staging-and-stashing" class="level4">
+<h4 class="anchored" data-anchor-id="exercise2-staging-and-stashing">Exercise2 Staging and Stashing</h4>
+<p><a href="https://github.com/nnja/advanced-git/blob/master/exercises/Exercise2-StagingAndStashing.md">Exercise Two - Staging and Stashing</a></p>
+<p>Learn to exercise precise control over what is added to your commits, with <code>git add -p</code> and <code>git stash</code>.</p>
+<section id="additional-exercise" class="level5">
+<h5 class="anchored" data-anchor-id="additional-exercise">Additional exercise</h5>
+<p>Can you figure out how to use <code>git stash</code> to stash <em>everything that is not staged for commit</em>? (Hint: you’ll need to pass two options to <code>git stash</code>). <a href="https://calebhearth.com/stash-what-git-wouldnt-commit">Solution</a>.</p>
+</section>
+</section>
+<section id="exercise7-rebaseandamend" class="level4">
+<h4 class="anchored" data-anchor-id="exercise7-rebaseandamend">Exercise7 RebaseAndAmend</h4>
+<p><a href="https://github.com/nnja/advanced-git/blob/master/exercises/Exercise7-RebaseAndAmend.md">Exercise Seven - Rebase and Amend</a></p>
+<section id="additional-exercises-1" class="level5">
+<h5 class="anchored" data-anchor-id="additional-exercises-1">Additional exercises</h5>
+<ol type="1">
+<li>The exercise in the tutorial has you use <code>git commit --amend</code> to change a commit’s message. Can you also use <code>amend</code> to change the <em>contents</em> of the files within the commit?</li>
+<li>Most difficult: the exercise in the tutorial has you use <code>rebase -i</code> to squash some commits. This allows you to combine a number of commits that each contain <em>too little</em> to amount to an atomic commit into one. But suppose you have a commit in your history that contains <em>too much</em> to amount to an atomic commit – i.e.&nbsp;a commit that changes two logically distinct bits of code. How can you use <code>rebase -i</code> to split this commit into two atomic commits? (Hint: you’ll need more commands than just <code>rebase</code>). <a href="https://github.com/kimgr/git-rewrite-guide#split-a-commit">Solution</a>.</li>
+<li>Similarly, can you use <code>rebase -i</code> to completely delete an unwanted commit, as well?</li>
+<li>Oops! You just deleted a commit and it’s all gone from your branch. This is one of the ways in which you could (accidentally) lose work while rebasing. But git wouldn’t be git if you couldn’t undo a rebase. Can you figure out how to restore your previous commit? <a href="https://git-scm.com/docs/git-reflog">Hint</a> <a href="https://jvns.ca/blog/2023/11/06/rebasing-what-can-go-wrong-/#undoing-a-rebase-is-hard">Solution</a></li>
+</ol>
+</section>
+</section>
+<section id="exercise4-merging-and-rerere" class="level4">
+<h4 class="anchored" data-anchor-id="exercise4-merging-and-rerere">Exercise4 Merging and ReReRe</h4>
+<p><a href="https://github.com/nnja/advanced-git/blob/master/exercises/Exercise4-MergingAndReReRe.md">Exercise4 Merging and ReReRe</a></p>
+<p>Reuse Recorded Resolution is a feature that lets you automate merge conflict resolution (for similar/recurring merge conflicts). This can be especially handy when rebasing, as <a href="https://mindup.medium.com/enable-git-rerere-for-easy-merging-303c6f2dacd3">rebasing can require you to solve the same merge conflict multiple times</a>!</p>
+</section>
+<section id="exercise9-advanced-tools" class="level4">
+<h4 class="anchored" data-anchor-id="exercise9-advanced-tools">Exercise9 Advanced Tools</h4>
+<p><a href="https://github.com/nnja/advanced-git/blob/master/exercises/Exercise9-AdvancedTools.md">Exercise9 Advanced Tools</a></p>
+<p>Notes:</p>
+<ul>
+<li><code>cherry-pick</code> can be very useful for creating atomic git histories. It essentially does the inverse of <code>rebase</code>: rather than replaying the changes on the current branch on top of (typically) <code>main</code> (rebase), it replays the changes from a commit on a <em>different</em> branch on top of the current branch. If your feature branch is a mess, but contains some commits that are nice atomic gems, you may be able to <code>cherry-pick</code> the latter on your <code>main</code> branch!</li>
+<li><code>git bisect</code> is a great debugging tool, especially when used in its automatic mode in conjunction with unit tests. Give the example <a href="https://mlo.io/blog/2020/08/05/debugging-with-git-bisect/">here</a> a go!</li>
+</ul>
 
 
+</section>
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -570,4 +706,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/UtrechtUniversity/programming-cafe/edit/main/site/posts/2024-01-11_advanced-git/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/UtrechtUniversity/programming-cafe/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/UtrechtUniversity/programming-cafe/blob/main/site/posts/2024-01-11_advanced-git/index.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/UtrechtUniversity/programming-cafe/edit/main/site/posts/2024-01-11_advanced-git/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/UtrechtUniversity/programming-cafe/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/UtrechtUniversity/programming-cafe/blob/main/site/posts/2024-01-11_advanced-git/index.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

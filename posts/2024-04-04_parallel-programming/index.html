@@ -2,10 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.553">
+<meta name="generator" content="quarto-1.4.554">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Luka van de Wiel">
 <meta name="dcterms.date" content="2024-04-04">
 
 <title>Programming Cafe - Parallel Programming</title>
@@ -101,6 +102,10 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Agenda</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="../../people.html"> 
+<span class="menu-text">People</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../../posts.html"> 
 <span class="menu-text">Posts</span></a>
   </li>  
@@ -121,7 +126,15 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#slides" id="toc-slides" class="nav-link active" data-scroll-target="#slides">Slides</a></li>
+  <li><a href="#exercises" id="toc-exercises" class="nav-link" data-scroll-target="#exercises">Exercises</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/UtrechtUniversity/programming-cafe/edit/main/site/posts/2024-04-04_parallel-programming/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/UtrechtUniversity/programming-cafe/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/UtrechtUniversity/programming-cafe/blob/main/site/posts/2024-04-04_parallel-programming/index.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -135,6 +148,12 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Luka van de Wiel </p>
+          </div>
+  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
@@ -151,9 +170,78 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Date:</strong> Thursday, 4th April 2024</li>
+<li><strong>Time:</strong> 15:00-17:00</li>
+<li><strong>Location:</strong> Bucheliuszaal 6.18, University Library (Utrecht Science Park)</li>
+<li><strong>Presentation:</strong> <a href="https://utrechtuniversity.github.io/programming-cafe/posts/2024-04-04_parallel-programming/">Parallel programming is <del>not</del> easy</a></li>
+<li><strong>Presenter:</strong> Lukas van de Wiel</li>
+</ul>
+</div>
+</div>
+<p>Speed up your HPC workflow!</p>
+<p>Do you want to perform many calculations or large analyses that would take very long on your own laptop? High Performance Computing (HPC) platforms provide compute power that might help to speed up your calculations or to increase your problem size (e.g.&nbsp;simulations at finer resolution, or exploring more parameter combinations). In this Programming Cafe Lukas van de Wiel, scientific programmer in Earth Sciences, will introduce us in the concepts of writing parallel code for HPC. As always we will prepare some <a href="https://github.com/UtrechtUniversity/programming-cafe/tree/main/exercises/parallel-programming">hands on exercises</a> so you can practice writing some parallel code yourself!</p>
+<section id="slides" class="level2">
+<h2 class="anchored" data-anchor-id="slides">Slides</h2>
 <iframe width="1050" height="700" src="../../presentations/2024-04-04_parallel-programming/slides/2024-04-04_parallel-programming.html"></iframe>
+</section>
+<section id="exercises" class="level2">
+<h2 class="anchored" data-anchor-id="exercises">Exercises</h2>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Python</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">R</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p>There are many ways to speed up your code in Python, and also many ways to parallelize your code. The <a href="https://carpentries-incubator.github.io/lesson-parallel-python">Parallel Programming in Python course</a> that is co-developed and taught by the eScience Center is a great way to learn more about this in more detail. Below is a notebook that will introduce you to the <code>multiprocessing</code> library in Python, and a link to some the course materials of the above course about <code>dask</code>.</p>
+<section id="multiprocessing-library" class="level4">
+<h4 class="anchored" data-anchor-id="multiprocessing-library">1. <code>multiprocessing</code> library</h4>
+<p>Download the <em>notebook from the notebooks</em> (link missing) folder and follow the instructions in the notebook.</p>
+</section>
+<section id="dask-and-profilers" class="level4">
+<h4 class="anchored" data-anchor-id="dask-and-profilers">2. <code>dask</code> and profilers</h4>
+<p>Checkout this cool <a href="https://carpentries-incubator.github.io/lesson-parallel-python/02-benchmarking/index.html">tutorial</a> on <code>dask</code> and measuring performance from the Parallel Programming in Python course (by the eScience Center).</p>
+</section>
+<section id="optional" class="level4">
+<h4 class="anchored" data-anchor-id="optional">Optional:</h4>
+<p>Browse the <a href="https://carpentries-incubator.github.io/lesson-parallel-python">Parallel Programming in Python course</a> to see what other topics might be interesting for you, and feel free to try out some of the code examples.</p>
+</section>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p>There are different approaches to parallel programming in R. One package that can be used is the <code>doFuture</code> package in combination with the <code>foreach</code> package.</p>
+<pre><code>install.packages("doFuture")
+install.packages('foreach')</code></pre>
+<p>Follow <a href="https://msu-icer.github.io/r-for-hpcc/parallelizing-r-code.html#writing-code-that-runs-on-multiple-cores">this tutorial</a> on how to use this package and stop at the section <strong>Writing code that runs on multiple nodes</strong>.</p>
+<p>Try now to use the same method for doing some computations in parallel. For example:</p>
+<pre><code>estimate_pi &lt;- function(N) {
+    j &lt;- 0
+    for (i in 1:N) {
+        x &lt;- runif(1,-1,1)
+        y &lt;- runif(1,-1,1)
+        if (x^2+y^2&lt; 1)  {
+            j=j+1
+        }
+    }
+return(4*j/N)
+}</code></pre>
+<p>Tip: There are two approaches: either parallelize the function, or run the function in parallel with batched inputs. Try both, think on forehand what would be the more useful approach and why and compare the results.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -570,4 +658,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/UtrechtUniversity/programming-cafe/edit/main/site/posts/2024-04-04_parallel-programming/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/UtrechtUniversity/programming-cafe/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/UtrechtUniversity/programming-cafe/blob/main/site/posts/2024-04-04_parallel-programming/index.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/UtrechtUniversity/programming-cafe/edit/main/site/posts/2024-04-04_parallel-programming/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/UtrechtUniversity/programming-cafe/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/UtrechtUniversity/programming-cafe/blob/main/site/posts/2024-04-04_parallel-programming/index.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>
